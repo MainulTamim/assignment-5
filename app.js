@@ -40,7 +40,6 @@ const getIngredients = (foodItem) => {
 		}
 	}
 	let ingredients = document.createElement("ol");
-	console.log(items);
 	container.appendChild(ingredients);
 	items.forEach((item) => {
 		let listofItems = document.createElement("li");
