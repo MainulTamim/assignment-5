@@ -39,7 +39,6 @@ const foodDetail = async (meal) => {
 	<h2>${foodItem[0].strMeal}</h2>
     <h4>Ingredients:</h4>
 	</div>
-
 	</article>
     `;
 	getIngredients(foodItem[0]);
